@@ -1,0 +1,375 @@
+/* Primary style */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0; padding: 0;
+    background-color: rgb(255, 254, 254);
+  }
+
+
+
+
+/* Banner */
+.banner {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .banner img {
+    height: 100vh;
+    width: 100%;
+  }
+
+
+
+
+
+
+  /*Gentle hearts Club*/
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create two equal columns that floats next to each other*/ 
+  .col1 {
+    float: left;
+    width: 50%;
+    margin-top: 310px;
+    margin-bottom: 300px;
+    padding: 10px;
+    font-size: 150px;
+    font-family: 'Inspiration', cursive;
+    text-align: center;
+  }
+
+  .col2 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-top: 350px;
+    margin-bottom: 300px;
+    padding-left: 90px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+
+  /*lear floats after the columns*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ /* Responsive layout*/
+  @media screen and (max-width: 600px) {
+    .col1 .col2 {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+  /*Tell your story*/
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Create two equal columns that floats next to each other*/ 
+  .col3 {
+    float: left;
+    width: 50%;
+    margin-top: 310px;
+    margin-bottom: 350px;
+    padding: 10px;
+    font-size: 150px;
+    font-family: 'Inspiration', cursive;
+    text-align: center;
+  }
+
+  .col4 {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    padding-left: 90px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+
+  /*lear floats after the columns*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ /* Responsive layout*/
+  @media screen and (max-width: 600px) {
+    .col1 .col2 {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+/*Playlist*/
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: end;
+  padding-right: 130px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.container1{
+  margin-top: 70px;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(236, 208, 194);
+  width: 100%;
+  
+}
+
+.header {
+  margin-top: 70px;
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.img-fluid1{
+  border-radius: 50%;
+  width:50%;
+}
+
+
+
+
+
+/*About Us*/
+.column3 {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.column5 {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.column6 {
+  float: left;
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.container4{
+  text-align: center;
+  margin-top: 70px;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(236, 208, 194);
+  width: 100%;
+  
+}
+
+.header1 {
+  margin-top: 70px;
+  font-family: 'Caveat', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+
+
+
+
+  /*Cards */
+.container2 {
+  margin-top: 200px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.quote1{
+  color:#f3b3b3;
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+}
+
+
+
+
+
+ /*Someone said*/
+ .container3 {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+ .h1{
+  margin-top: 50px;
+  text-align: center;
+  color:#ca7a7a;
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  text-shadow: #555151;
+ }
+
+
+
+
+
+
+/*Quote*/
+.quote{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #daa0a0;
+    font-family: 'Tangerine', serif;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px rgb(243, 208, 208);
+
+}
+
+
+/*Calculator*/
+
+.containerSM {
+  margin-top: 80px;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(236, 208, 194);
+  width: 100%;
+}
+
+.col1L {
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 150px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+.headerSM {
+  margin-top: 70px;
+  font-family: 'Caveat', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+/*Contact Us forms*/
+
+input[type=text], input[type=email], input[type=submit] {
+  
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.form {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 20px;
+  padding-left: 23%;
+}
+label {
+  display: inline-block;
+  
+}
+input {
+  display: inline-block;
+}*/
+
+/* Contact Style */
+.alert-success {
+  display: none;
+}
+
+
+/*Contact Us maps*/
+
+.mapouter{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding-left: 25%;
+  height: 50%;
+  width: 50%;
+}
+
+
